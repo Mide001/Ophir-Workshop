@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+* {
+    background-color: #200E34;
+}
+
+.nav-container {
+    padding: 10px 0px 0px;
+  }
+  
+.tweet-button {
+    background-color: rgba(149, 54, 236, 0.5);
+    height: 43px;
+    width: 162px;
+    border: 1px solid #F99E0F;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.tweet-button:hover {
+    background-color: rgba(149, 54, 236, 0.5);
+    height: 43px;
+    width: 162px;
+    border: 1px solid #F99E0F;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.content-header {
+    line-height: 86px;
+    font-size: 64px;
+    font-weight: 500;
+}
