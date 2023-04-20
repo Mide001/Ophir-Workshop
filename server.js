@@ -3,7 +3,9 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const path = require('path');
 const app = express();
+require('dotenv').config();
 const port = 3002;
+
 
 // configure the middleware to parse incoming form data
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -31,8 +33,8 @@ app.post('/submit-form', (req, res) => {
     port: 587,
     secure: false,
     auth: {
-      user: 'guyd36188@gmail.com', // replace with your email address
-      pass: 'ynixzzmpevsfzoug' // replace with your email password
+      user: process.env.EMAIL_USERNAME, // replace with your email address
+      pass: process.env.EMAIL_PASSWORD // replace with your email password
     }
   });
 
