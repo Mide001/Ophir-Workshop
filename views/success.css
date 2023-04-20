@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    background-color: #200E34;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #ffffff;
+}
+
+.tweet-button {
+    background-color: rgba(149, 54, 236, 0.5);
+    height: 43px;
+    width: 162px;
+    border: 1px solid #F99E0F;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
